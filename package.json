@@ -1,0 +1,17 @@
+{
+  "name": "graphql",
+  "version": "1.0.1",
+  "description": "example graphql",
+  "main": "schema.js",
+  "scripts": {
+    "start": "nodemon server.js 3000"
+  },
+  "author": "Hien Tran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1",
+    "lodash": "^4.17.4"
+  }
+}
